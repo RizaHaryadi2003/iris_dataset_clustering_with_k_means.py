@@ -22,7 +22,7 @@ Spesies *Iris setosa* ditandai dengan ukuran kelopak yang kecil dan warna yang c
 
 🧠 **Teknologi yang digunakan**: Python • Scikit-Learn • Pandas • Matplotlib  
 ✍️ **Penulis**: Riza Haryadi  
-📬 **Email**: riza@example.com  
+📬 **Email**: rizaharyadi13@gmail.com  
 🌍 **Lokasi**: Indonesia  
 
 > _“Data yang tidak dipetakan ibarat hutan yang belum dijelajahi – penuh potensi tapi tak terjamah.”_ 🌿
