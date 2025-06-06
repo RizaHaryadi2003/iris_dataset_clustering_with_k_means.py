@@ -8,15 +8,15 @@ Algoritma **K-Means** adalah salah satu teknik clustering yang paling populer ka
 
 Dalam konteks proyek ini, saya menerapkan algoritma K-Means untuk mengelompokkan data dari dataset Iris tanpa menggunakan label spesiesnya. Dengan menggunakan dua komponen utama dari analisis dimensi, yaitu PCA (*Principal Component Analysis*), saya mereduksi fitur menjadi dua dimensi agar hasil pengelompokan bisa divisualisasikan dengan baik. Hasilnya menunjukkan bahwa meskipun tanpa label, algoritma dapat mengelompokkan data sesuai pola yang cukup dekat dengan klasifikasi aslinya. Hal ini menunjukkan bagaimana *unsupervised learning* bisa digunakan dalam situasi dunia nyata di mana label tidak tersedia atau sulit didapatkan.
 
-Untuk memberikan konteks visual mengenai tiga spesies dalam dataset Iris, berikut adalah representasi gambar dari masing-masing bunga:
+---
 
-| ![Iris Setosa](https://en.wikipedia.org/wiki/Iris_setosa#/media/File:Irissetosa1.jpg) | 🌿 Iris-setosa |
-| ![Iris Versicolor](https://upload.wikimedia.org/wikipedia/commons/4/41/Iris_versicolor_3.jpg) |🌹 Iris-versicolor |
-| ![Iris Virginica](https://upload.wikimedia.org/wikipedia/commons/9/9f/Iris_virginica.jpg) |🌷 Iris-virginica |
+### 🌼 Visualisasi Tiga Spesies *Iris*
+
+| 🌿 *Iris setosa* | 🌹 *Iris versicolor* | 🌷 *Iris virginica* |
+|:--:|:--:|:--:|
+| <img src="https://upload.wikimedia.org/wikipedia/commons/a/a7/Irissetosa1.jpg" width="200"/> | <img src="https://upload.wikimedia.org/wikipedia/commons/4/41/Iris_versicolor_3.jpg" width="200"/> | <img src="https://upload.wikimedia.org/wikipedia/commons/9/9f/Iris_virginica.jpg" width="200"/> |
 
 Spesies *Iris setosa* ditandai dengan ukuran kelopak yang kecil dan warna yang cerah. *Iris versicolor* memiliki ciri khas ukuran yang sedang dan bentuk kelopak agak lebih melebar. Sementara itu, *Iris virginica* biasanya memiliki petal yang lebih panjang dan bentuk bunga yang lebih besar secara keseluruhan. Meskipun secara visual cukup jelas perbedaannya, secara statistik kita memerlukan analisis fitur agar bisa membedakan ketiganya dalam skala besar secara otomatis.
-
-Proyek ini tidak hanya menjadi demonstrasi penerapan algoritma K-Means dalam clustering data biologis, tetapi juga menjadi contoh bagaimana visualisasi dan analisis statistik bisa digabungkan untuk mengungkap informasi tersembunyi dalam dataset. Dengan menggunakan Python, library *scikit-learn* untuk machine learning, *matplotlib* untuk visualisasi, dan *pandas* untuk manipulasi data, seluruh proses dilakukan secara sistematis dan dapat direplikasi untuk eksperimen lanjutan. Proyek ini diharapkan menjadi langkah awal menuju pemahaman mendalam mengenai machine learning dan pengelompokan data secara tak terawasi.
 
 ---
 
