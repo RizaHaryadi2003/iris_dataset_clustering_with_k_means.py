@@ -10,11 +10,9 @@ Dalam konteks proyek ini, saya menerapkan algoritma K-Means untuk mengelompokkan
 
 Untuk memberikan konteks visual mengenai tiga spesies dalam dataset Iris, berikut adalah representasi gambar dari masing-masing bunga:
 
-| 🌿 Iris-setosa | 🌹 Iris-versicolor | 🌷 Iris-virginica |
-|:--:|:--:|:--:|
-| ![Iris Setosa](https://en.wikipedia.org/wiki/Iris_setosa#/media/File:Irissetosa1.jpg) 
-| ![Iris Versicolor](https://upload.wikimedia.org/wikipedia/commons/4/41/Iris_versicolor_3.jpg) 
-| ![Iris Virginica](https://upload.wikimedia.org/wikipedia/commons/9/9f/Iris_virginica.jpg) |
+| ![Iris Setosa](https://en.wikipedia.org/wiki/Iris_setosa#/media/File:Irissetosa1.jpg) | 🌿 Iris-setosa |
+| ![Iris Versicolor](https://upload.wikimedia.org/wikipedia/commons/4/41/Iris_versicolor_3.jpg) |🌹 Iris-versicolor |
+| ![Iris Virginica](https://upload.wikimedia.org/wikipedia/commons/9/9f/Iris_virginica.jpg) |🌷 Iris-virginica |
 
 Spesies *Iris setosa* ditandai dengan ukuran kelopak yang kecil dan warna yang cerah. *Iris versicolor* memiliki ciri khas ukuran yang sedang dan bentuk kelopak agak lebih melebar. Sementara itu, *Iris virginica* biasanya memiliki petal yang lebih panjang dan bentuk bunga yang lebih besar secara keseluruhan. Meskipun secara visual cukup jelas perbedaannya, secara statistik kita memerlukan analisis fitur agar bisa membedakan ketiganya dalam skala besar secara otomatis.
 
